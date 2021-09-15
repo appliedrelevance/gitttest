@@ -4,7 +4,14 @@ This will be put up into a Coda document to document how our devops work.
 
 1. Step one is init the git repository.
 
-`   cd gittest
-    git init`
+    ```
+    cd gittest
+    git init
+    ```
 
-1. Next, make the initial commit.  I'm going to use VSCode git integration to do that.
+1. Next, make the initial commit.
+
+    ```
+    git -a -m "Make more changes to README".
+    ```
+    
