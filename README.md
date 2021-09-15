@@ -36,5 +36,22 @@ This will be put up into a Coda document to document how our devops work.
 
 That should have created a repository in the github cloud that is synchronized with the local clone of the repository. 
 
+## Make a change to the existing code.
+
+Making a change to the existing code starts with deciding which ticket to work on.  Each ticket has a number in the project sprint board, whether it is in Jira or Coda.  Since we are currently using Coda.io, that's what we will use for this example.  
+
+1. If necessary, configure git to merge pulls by default.
+
+    ```
+    git config --global pull.rebase false
+    ```
+
+1. Pull the master/main changes down to the local version if necessary. 
+
+    ```
+    git pull
+    ```
+
+1. I've made changes and committed in the cloud.  What happens now if I try to commit these changes?
 
 
