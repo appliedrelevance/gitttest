@@ -7,4 +7,4 @@ This will be put up into a Coda document to document how our devops work.
 `   cd gittest
     git init`
 
-2. Next, make the initial commit.  I'm going to use VSCode git integration to do that.
+1. Next, make the initial commit.  I'm going to use VSCode git integration to do that.
