@@ -9,12 +9,6 @@ This will be put up into a Coda document to document how our devops work.
     git init
     ```
 
-1. Next, make the initial commit.
-
-    ```
-    git commit -a -m "Make more changes to README".
-    ```
-
 1. Add repository to github
 
     ```
@@ -26,8 +20,15 @@ This will be put up into a Coda document to document how our devops work.
     git remote add origin https://github.com/appliedrelevance/gitttest.git
     git push -u origin main
     ```
+    
+    
+1. Next, update the readme file and commit it to local repo.
 
-1. Finally, commit and push all these changees to the origin repository main branch.
+    ```
+    git commit -a -m "Make more changes to README".
+    ```
+
+1. Finally, make more updates to the readme file, and commit and push all these changees to the origin repository main branch.
 
     ```
     git commit -a -m "final commit to initialize the document"
@@ -53,5 +54,7 @@ Making a change to the existing code starts with deciding which ticket to work o
     ```
 
 1. I've made changes and committed in the cloud.  What happens now if I try to commit these changes?
+
+
 
 
